@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="IMC.css">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/711/711860.png"/>
+    <title> Calculadora IMC </title>
+</head>
+
+<body>
+
+    <div class="topnav">
+        <a href="#">Inicio</a>
+        <a href="#">Curriculo</a>
+        <a href="#">Projetos</a>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/AlienHead.png" alt="logo" width="50" class="icone">
+    </div>  
+
+    <div class="content">
+        <img src="https://cdn-icons-png.flaticon.com/512/711/711860.png" alt="logo" width="200" class="center">
+        <h1>Calculadora de IMC</h1>
+        <h2>Altura em metros:</h2>
+            <input type="number" name="altura" placeholder="Ex: 1,80" id="altura" /><br><br>
+        <h2>Peso em quilos:</h2>
+            <input type="number" name="peso" placeholder="Ex: 69,02" id="peso" /><br><br>
+            <button class="button">Calcular IMC</button><br><br>
+            <div id="resultado"> </div>
+    </div>                   
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
