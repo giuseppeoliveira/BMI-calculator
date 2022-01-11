@@ -13,9 +13,9 @@ $(function(){
 
 
         if(imc <16) {
-            var traducao = 'Baixo peso, muito grave';
+            var traducao = 'Desnutrido';
         } else if(imc >=16 && imc <16.99){
-            var traducao = 'Baixo peso, grave';
+            var traducao = 'Semi-desnutrição';
         } else if(imc >=17 && imc <18.49){
             var traducao = 'Baixo peso';
         } else if(imc >=18.50 && imc <24.99){
@@ -30,7 +30,10 @@ $(function(){
             var traducao = 'Obesidade grau III';
         }
 
-        $('#resultado').html("Seu IMC é: "+imc+"kg/m² e seu status é: "+traducao);
+        $('#resultado').css("display", "block").html("Seu IMC é "+imc+" kg/m² e seu status é: "+traducao);
+        $('.button, input, h1, h2').css("display", "none");
+        $('.button2').css("display", "block");
+        
 
     });
 });
