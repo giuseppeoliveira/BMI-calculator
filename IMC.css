@@ -7,8 +7,7 @@
   font-family: 'Roboto', sans-serif; 
   box-sizing: border-box;
   }
-
-/* Variable */
+  /* Variable */
 :root {
   --nav-bg-color: #444444;
   --nav-bg-hover-color: #ddd;
@@ -163,7 +162,6 @@ h1 {
 
 /* Mobile Responsible */
 @media(max-width:450px){
-    
   .icone{
     max-width: 40px;
     margin: auto;
@@ -196,5 +194,4 @@ h1 {
     margin: auto;
     max-width: 100%;
     }
-
 }
