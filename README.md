@@ -7,8 +7,8 @@
 <h2>Installation</h2>
 <p>To test this application you have two options:</p>
 <ol>
-  <li>1 - Clone this repository to your local machine. Open the "index.html" file in your web browser.</li>
-  <li>2 - Or you can directly access the program in your web browser through the following link: https://giuseppeoliveira.github.io/IMC-calculator/ </li>
+  <li>Clone this repository to your local machine. Open the "index.html" file in your web browser.</li>
+  <li>Or you can directly access the program in your web browser through the following link: https://giuseppeoliveira.github.io/IMC-calculator/ </li>
 </ol>
 
 
